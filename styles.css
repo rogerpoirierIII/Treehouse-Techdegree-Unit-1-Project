@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/ponder.png') no-repeat top center ;
+  background: url('images/ponder.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -98,8 +98,11 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+.card h2{
+  text-align: center;
+}
 .card:hover {
-  border-color: #ff99ff;
+  border-color: skyblue;
 }
 
 ul.skills {
@@ -109,15 +112,16 @@ ul.skills {
 
 .skills li {
   border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
+  display:inline;
+  background:skyblue;
+  color: black;
+  padding: 5px 5px;
+  margin: 1px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background:orangered;
+  color:white
 }
 
 footer {
