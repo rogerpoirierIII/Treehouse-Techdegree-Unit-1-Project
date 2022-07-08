@@ -69,8 +69,8 @@ a:hover {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 35%;
+  border: 10px double black;
   transition: all .5s;
 }
 #home-header .profile-image:hover {
@@ -94,6 +94,21 @@ a:hover {
   display: table;
   margin: 10px auto;
 } 
+#education h2{
+  font-size: 48px;
+}
+#education img{
+  width: 100px;
+}
+#education h3{
+  font-size: 24px;
+}
+#skills h2{
+  font-size: 48px;
+}
+#sklls ul{
+  margin-right: auto;
+}
 .location {
   background-color: #222;
   color: yellow;
@@ -139,7 +154,9 @@ footer {
   padding: 20px 0 40px 20px;
 }
 #skills ul{
-  list-style-type:none;
+  list-style-type:circle;
+  display: inline-block;
+  padding: 5px 0 5px 0;
 }
 footer .copyright {
   top: -8px;
