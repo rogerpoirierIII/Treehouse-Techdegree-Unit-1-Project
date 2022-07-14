@@ -80,11 +80,25 @@ a:hover {
   text-align: center;
   padding-top: 60px;
   background-color: royalblue;
-  width: 100%;
-  font-size: 72px;
+  font-size: 64px;
+  line-height: 1.5;
+  overflow: hidden;
 }
 #experience-header p{
   font-size: 2rem;
+}
+#contact-header{
+  background-color: seagreen;
+  padding-top: 60px;
+  margin-bottom: 0;
+} 
+#contact-list{
+  display: inline-block;
+  list-style-type: none;
+  width: 275px;
+}
+#contact-list li{
+  border: double black 5px;
 }
 .tag {
   background-color: #efefef;
@@ -156,7 +170,7 @@ footer {
 #skills ul{
   list-style-type:circle;
   display: inline-block;
-  padding: 5px 0 5px 0;
+  padding: 5px 0 5px 0  ;
 }
 footer .copyright {
   top: -8px;
