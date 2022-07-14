@@ -90,8 +90,10 @@ a:hover {
 #contact-header{
   background-color: seagreen;
   padding-top: 60px;
-  margin-bottom: 0;
 } 
+#contact-header h1{
+font-size: 58px;
+}
 #contact-list{
   display: inline-block;
   list-style-type: none;
